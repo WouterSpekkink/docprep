@@ -19,7 +19,7 @@ documents = loader.load()
     
 # Split documents
 text_splitter = RecursiveCharacterTextSplitter(
-    chunk_size = 1500,
+    chunk_size = 5000,
     chunk_overlap  = 0,
     length_function = len,
     add_start_index = True,
